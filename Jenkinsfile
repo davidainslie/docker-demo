@@ -8,7 +8,7 @@ node {
    }
 
    stage('test') {
-     def myTestContainer = docker.image('node:4.6')
+     def myTestContainer = docker.image('node:9.1')
 
      myTestContainer.pull()
 
